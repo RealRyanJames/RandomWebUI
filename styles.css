@@ -1,6 +1,7 @@
 div {
   display: flex;
   justify-content: space-evenly;
+  margin-top: calc(50px * 3);
 }
 
 body {
@@ -11,6 +12,8 @@ button {
   margin-top: 20px;
   width: calc(60px * 5 / 2);
   padding: calc(10px / 2);
+  position: relative;
+  top: -60px;
 }
 
 .container {
@@ -23,8 +26,18 @@ button {
     display: grid;
   }
 
+  div {
+    font-size: 13px;
+    margin-top: calc(50px / 2);
+    position: relative;
+    top: 200px;
+  }
+
   button {
-    margin-top: 20px;
-    width: calc(60px * 5);
+    position: relative;
+    top: calc(50px * 2);
+    /* margin-top: 20px; */
+    margin: 20px;
+    width: calc(60px * 7);
   }
 }

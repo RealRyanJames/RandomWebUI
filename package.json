@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@typescript/native-preview": "^7.0.0-dev.20260707.2"
+  },
+  "name": "randomwebui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "tsgo": "tsgo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealRyanJames/RandomWebUI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RealRyanJames/RandomWebUI/issues"
+  },
+  "homepage": "https://github.com/RealRyanJames/RandomWebUI#readme"
+}
