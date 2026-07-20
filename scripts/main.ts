@@ -1,3 +1,5 @@
+import { isZero } from "../Checks/Checks.js";
+
 function AddNun(num1: number, num2: number): number {
   return num1 + num2;
 }
@@ -76,6 +78,10 @@ function onClickFuncDiv() {
   const num2Tag = document.getElementById("num2") as HTMLElement;
   numTag.textContent = `${num1}`;
   num2Tag.textContent = `${num2}`;
+
+  if (isZero(num1, num2)) {
+    alert(isZero(num1, num2));
+  }
 
   const answer = document.getElementById("answer") as HTMLElement;
   const addTextAnswer = `${num1} / ${num2} = ${DivNun(num1, num2)}`;
